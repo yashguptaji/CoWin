@@ -13,14 +13,14 @@ You can search for vaccines using your state-district location pair and also you
  
  ##### Open Command Prompt and check installation of Nodejs and NPM
     
-   > node -v
-   >  
-     v15.11.0
+   > 
+     node -v
+   > v15.11.0
      
    
-   > npm -v
    > 
-     7.6.1
+     npm -v
+   > 7.6.1
   
   #### Install Dependencies 
     npm install
