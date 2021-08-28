@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 app.set("view engine", "ejs");
 
 app.use(express.static("public"));
