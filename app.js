@@ -40,6 +40,10 @@ function abcd(districtID, date = getDate()) {
     };
     request.onerror = function () {
       // There was a connection error of some sort
+       // There was a connection error of some sort
+       // There was a connection error of some sort
+       // There was a connection error of some sort
+       // There was a connection error of some sort
     };
     request.send();
   });
