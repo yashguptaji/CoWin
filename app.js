@@ -59,7 +59,7 @@ app.get("/show/:id", (req, res) => {
 });
 
 app.get("/form", (req, res) => res.render("getDistrict"));
-
+//made a change
 app.post("/form", (req, res) => {
   const { districtID, date, age } = req.body;
   // console.log(districtID, date, age);
